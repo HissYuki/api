@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:3.12-slim
 RUN mkdir -p /api
 WORKDIR /api
 COPY requirements.txt /api/
